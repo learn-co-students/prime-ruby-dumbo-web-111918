@@ -5,7 +5,7 @@ def prime?(num)
     return false
   end
   
-  (2..num-1).each do |i|
+  for i in (2..num - 1)
     if num % i == 0
       return false
     end
